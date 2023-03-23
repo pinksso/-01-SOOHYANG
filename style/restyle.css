@@ -1,0 +1,278 @@
+/* ****@media screen and (max-width:1630px)**** */
+@media screen and (max-width:1630px) {
+    /* main */
+    .r_title{
+        right: 10%;
+    }
+}
+
+@media screen and (max-width:1350px) {
+    /* main */
+    .r_title{
+        right: 6%;
+    }
+}
+
+@media screen and (max-width:1265px) {
+    /* main */
+    .title{
+        left: 10%;
+    }
+
+    .r_title{
+        top:20%;
+        right: 7%;
+        font-size: 14px;
+    }
+
+    /* contents_inner */
+    .inner{
+        width:90%;
+        margin: 50px 0;
+        margin: auto;
+    }
+}
+
+
+
+
+/* ****@media screen and (max-width:1060px)**** */
+@media screen and (max-width:1060px) {
+    /* main */
+    .main{
+        background:url(../img/t_main.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    /* s1 */
+    .s1{
+        flex-wrap: wrap;
+    }
+
+    .s1>div{
+        width: 50%;
+    }
+
+    .s1>div:last-child{
+        margin-top: 85px;
+    }
+
+    .s1 h5,.s2 h5,.s3 h5 {
+        margin-bottom: 35px;
+    }
+
+    .s1>div>hr {
+        margin-bottom: 40px;
+    }    
+
+    /* s2 */
+    .s2{
+        flex-direction: column;
+    }
+
+    .allbox>div{
+        margin-bottom: 85px;
+    }
+
+    .back{
+        width:100%;
+        margin: auto;
+    }
+
+    .s2>div{
+        margin: 0;
+    }
+
+    .align{
+        margin-top: 60px;
+    }
+    
+}
+
+
+
+
+/* ****@media screen and (max-width:1000px)**** */
+@media screen and (max-width:1000px) {
+    /* main */
+    .title{
+        left: 7%;
+        top:52%;
+    }
+
+    .title>h3{
+        padding: 5px 0 20px 0;
+    }
+
+    .r_title{
+        position: absolute;
+        top:12%;
+        right: 8%;
+        font-size: 14px;
+    }
+
+    /* s3 */
+    .s3 .pc{
+        height: 280px;
+    }
+
+    .s3 .pc div{
+        background: url(../img/t_pc.png);
+        background-size: cover;
+    }
+
+    .mobile{
+        height: 290px;
+    }
+}
+
+
+
+
+/* ****@media screen and (max-width:620px)**** */
+@media screen and (max-width:620px) {
+    /* main */
+    .scroll{
+        display: none;
+    }
+
+    /* s1 */
+    .s1>div{
+        width: 100%;
+    }
+
+    .s1>div:first-child{
+        margin-bottom: 85px;
+    }
+
+    /* s2 */
+    .allbox>div{
+        flex-direction: column;
+    }
+
+    .box1,.box2{
+        margin: auto;
+    }
+
+    .s2 .box2>div:first-child{
+        margin-top: 0px;
+    }
+
+    .align{
+        width: 350px;
+        height: 243px;
+        margin-top: 50px;
+    } 
+
+    .circle{
+        left: 60px;
+    }
+
+    .circle span{
+        width:85px;
+        height: 85px;
+    }
+
+    .circle p{
+        padding-top: 5px;
+    }
+
+    .circle:nth-child(2){
+        left: 49px;
+    }
+    
+    .circle:nth-child(3){
+        left: 37px;
+    }
+
+    .circle:nth-child(4){
+        bottom: -123px;
+        left: -157px;
+    }
+    
+    .circle:nth-child(5){
+        bottom: -123px;
+        left: -164px;
+    }
+}
+
+
+
+
+/* ****@media screen and (max-width:430px)**** */
+@media screen and (max-width:430px) {
+    /* main */
+    .main{
+        background:url(../img/m_main.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .title{
+        left: 7%;
+        top:57%;
+        width: 355px;
+    }
+
+    .title>h1{
+        width:180px;
+        margin: 0;
+    }
+
+    .title>h3{
+        font-size:0.9em;
+    }
+
+    .title>p{
+        font-size: 0.65em;
+    }
+
+    .title>p>br{
+        display: none;
+    }
+
+    .title>a{
+        margin-top: 25px;
+    }
+
+    .r_title{
+        position: absolute;
+        top:8%;
+        right: 5%;
+        font-size: 14px;
+    }
+
+    .r_title>span{
+        display: none;
+    }
+
+    .r_title>p{
+        font-size: 0.6em;
+    } 
+    
+    /* Common section */
+    .s1,.s2,.s3{
+        padding: 100px 0;
+    }   
+
+    /* s2 */
+    .s2 .box>div{
+        width:200px;
+    }
+
+    /* s3 */
+    .s3 .pc{
+        height: 300px;
+    }
+
+    .s3 .pc div{
+        background: url(../img/m_pc.png);
+        background-size: cover;
+    }
+
+    .mobile{
+        height: 280px;
+        margin-bottom: 0;
+    }
+}

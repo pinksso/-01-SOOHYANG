@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>수향 SOOHYANG</title>
+    <!-- favicon-->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <!-- bootstrap icon_cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- bootstrap/jquery_cdn -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- xeicon_cdn -->
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <!-- slick_cdn -->
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- fadeup_cdn-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- fontawesome_cdn -->
+    <script src="https://kit.fontawesome.com/3c439f6338.js" crossorigin="anonymous"></script>
+    <!-- css -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/restyle.css" rel="stylesheet">
+    <!-- js -->
+    <script defer src="js/script.js"></script>
+</head>
+
+<body>
+    <!-- ////header//// -->
+    <header data-aos="fade-up" data-aos-delay="200" data-aos-duration="1300">
+        <!-- logo -->
+        <h1>
+            <a href="#"><i class="bi bi-search"></i></a>
+        </h1>
+        <!-- menu -->
+        <nav class="nav">
+            <ul >
+                <li><a href="#">product</a></li>
+                <li><a href="#">Fragrance</a></li>
+                <li><a href="index.html">
+                    <img src="img/logo.png" alt="logo"/>
+                </a></li>
+                <li><a href="#">collection</a></li>
+                <li><a href="#">about</a></li>
+            </ul>
+        </nav>
+        <!-- icon -->
+        <div class="icon">
+            <div>
+            <a href="#"><i id="change3" class="bi bi-person-lines-fill"></i></a>
+            <a href="#"><i id="change4" class="bi bi-basket"></i></a>
+            </div>
+        </div>
+        <!-- re / ham_icon -->
+        <i id="change2" class="bi bi-list ham"></i>
+        <!-- re / logo -->
+        <a class="logo" href="index.html"><img src="img/logo.png" alt="logo"/></a>
+    </header>
+    <!-- ////header//// -->
+
+
+
+    <!-- ////audio player//// -->
+    <div class="players" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+        <audio id="beachSnd" preload="none" autoplay playsinline loop style="width: 450px;">
+            <source src="video_audio/SOOHYANG PRODUCTS 2017.mp3" type="audio/mp3">                
+        </audio>
+        <button id="beachBut"><i class="bi bi-play-fill"></i></button>
+        <button id="stopBut"><i class="bi bi-stop-fill"></i></button>
+        <input id="vol" type="range" max="100" min="0">
+    </div>
+    <!-- ////audio player//// -->
+
+
+
+    <!-- ////main//// -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <!-- dots -->
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        </ol>
+        <!-- slider -->
+        <div class="carousel-inner"  id="hero-img">
+            <!-- slide_01 -->
+            <div class="carousel-item active">
+                <div class="videobox">
+                    <video id="hero-imgs1" src="video_audio/SOOHYANG PRODUCTS 2017.mp4" autoplay playsinline loop muted poster="img/main01.png"></video>
+                </div>
+            </div>
+            <!-- slide_02 -->
+            <div class="carousel-item">
+                <div>
+                    <video id="hero-imgs1" src="video_audio/Soohyang Travel Kit Unboxing.mp4" autoplay playsinline loop muted poster="img/main02.png"></video>
+                </div>      
+            </div>
+        </div>
+    </div>
+    <!-- ////main//// -->
+
+
+    
+    <!-- ////s1//// -->
+    <div class="container s1">
+        <div class="row d-flex justify-content-between">
+            <!-- main_title -->
+            <div class="col-12 mtitle" id="text" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1200">
+                <h5>ABOUT</h5>
+                <h1>PRODUCTS</h1>
+            </div>
+            <!-- contents_01 -->
+            <div class="col-lg-4 col-md-12 col-sm-12 inner" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1200">
+                <div class="img">
+                    <img src="img/s1_1.jpg" alt="s1_1"/>
+                    <span></span>
+                    <div class="title">
+                        <h5>｜Produnts 16</h5>
+                    </div>
+                </div>
+                <div class="text">
+                    <h2>Car air freshener</h2>
+                    <h3>자동차 방향제</h3>
+                    <button>view</button>
+                </div>
+            </div>
+            <!-- contents_02 -->
+            <div class="col-lg-4 col-md-6 sm-6 inner" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1400">
+                <div class="img big">
+                    <img src="img/s1_2.png" alt="s1_2"/>
+                    <!-- <img src="img/s1_2-2.png" alt=""/> -->
+                    <span></span>
+                    <div class="title">
+                        <h5>｜Produnts 16</h5>
+                    </div>
+                </div>
+                <div class="text">
+                    <h2>Candle & Diffuser</h2>
+                    <h3>캔들 & 디퓨저</h3>
+                    <button>view</button>
+                </div>
+            </div>
+            <!-- contents_03 -->
+            <div class="col-lg-4 col-md-6 sm-6 inner" data-aos="fade-up" data-aos-delay="900" data-aos-duration="1600">
+                <div class="img">
+                    <img src="img/s1_3.png" alt="s1_3"/>
+                    <span></span>
+                    <div class="title">
+                        <h5>｜Produnts 16</h5>
+                    </div>
+                </div>
+                <div class="text">
+                    <h2>Plaster air freshener</h2>
+                    <h3>석고 방향제</h3>
+                    <button>view</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ////s1//// -->
+    
+
+
+    <!-- ////s2//// -->
+    <div class="container s2">
+        <div class="row">
+            <!-- main_title -->
+            <div class="col-12 mtitle">
+                <hr>
+                <h5>수향만의 9가지 시그니처 향</h5>
+                <h1>Suhyang's 9 signature Fragrance.</h1>
+            </div>
+            <div class="col-12 s2slide"> 
+                <div class="slideinner">
+                    <!--s1 -->
+                    <div class="slidecard">
+                        <div class="img">
+                            <img src="img/s2_1.png" alt="s2_1"/>
+                        </div>
+                        <h1 class="bigtitle">01</h1>
+                        <div class="text">
+                            <h2>itaewon565</h2>
+                            <h3>[이태원 65]</h3>
+                        </div>
+                        <!-- tab -->
+                        <div id="tab1">
+                            <div class="tab">
+                                <h3>Information</h3>
+                                <i class="bi bi-plus"></i>
+                            </div>
+                            <div class="tab_con">
+                                수향이 이태원동 565번지에 첫 쇼룸을 열며 선보인 시그니처 향. 
+                                진한 신록의 향에 흰 들꽃의 섬세한 향이 뒤엉켜 이른 아침  이슬이
+                                생각나는 향입니다.
+                            </div>
+                        </div>
+                        <div id="tab2">
+                            <div class="tab">
+                                <h3>Affected Products</h3>
+                                <i class="bi bi-plus"></i>
+                            </div>
+                            <div class="tab_con">
+                                수향 캔들 200g /  수향 디퓨저 300ml / 디퓨저 리필액 /  
+                                수향 왁스 타블렛 50g
+                            </div>
+                        </div>
+                        <!-- //tab -->
+                    </div>
+                </div>
+                <div class="slideinner">
+                    <!--s2 -->
+                    <div class="slidecard">
+                        <div class="img">
+                            <img src="img/s2_2.png" alt="s2_2"/>
+                        </div>
+                        <h1 class="bigtitle">02</h1>
+                        <div class="text">
+                            <h2>Gangnam8</h2>
+                            <h3>[강남 8]</h3>
+                        </div>
+                        <!-- tab -->
+                        <div id="tab1">
+                            <div class="tab">
+                                <h3>Information</h3>
+                                <i class="bi bi-plus"></i>
+                            </div>
+                            <div class="tab_con">
+                                빌라수향을 오픈하며 출시한 두 번째 시그니처 향. 넛맥, 
+                                로브의 스파이시 노트와 오렌지플라워, 오키드 등의 오리엔탈 
+                                노트가 절묘하게 어우러진 향입니다.
+                            </div>
+                        </div>
+                        <div id="tab2">
+                            <div class="tab">
+                                <h3>Affected Products</h3>
+                                <i class="bi bi-plus"></i>
+                            </div>
+                            <div class="tab_con">
+                                수향 캔들 200g /  수향 디퓨저 300ml / 디퓨저 리필액 /  
+                                수향 왁스 타블렛 50g
+                            </div>
+                        </div>
+                        <!-- //tab -->
+                    </div>
+                </div>
+                <div class="slideinner">
+                    <!--s3-->
+                    <div class="slidecard">
+                        <div class="img">
+                            <img src="img/s2_3.png" alt="s2_3"/>
+                        </div>
+                        <h1 class="bigtitle">03</h1>
+                        <div class="text">
+                            <h2>Summers Night</h2>
+                            <h3>[써머스 나잇]</h3>
+                        </div>
+                        <!-- tab -->
+                        <div id="tab1">
+                            <div class="tab">
+                                <h3>Information</h3>
+                                <i class="bi bi-plus"></i>
+                            </div>
+                            <div class="tab_con">
+                                달콤하면서 관능적인 머스크 향 중에서도 여름을 위해 한결 더 경쾌하면서 
+                                산뜻하게 연출한 머스크 노트의 향입니다.
+                            </div>
+                        </div>
+                        <div id="tab2">
+                            <div class="tab">
+                                <h3>Affected Products</h3>
+                                <i class="bi bi-plus"></i>
+                            </div>
+                            <div class="tab_con">
+                                수향 캔들 200g /  수향 디퓨저 300ml / 디퓨저 리필액 /  
+                                수향 왁스 타블렛 50g
+                            </div>
+                        </div>
+                        <!-- //tab -->
+                    </div>
+                </div>
+                <div class="slideinner">
+                    <!--s4-->
+                    <div class="slidecard">
+                        <div class="img">
+                            <img src="img/s2_4.png" alt="s2_4"/>
+                        </div>
+                        <h1 class="bigtitle">04</h1>
+                        <div class="text">
+                            <h2>Sleep Well</h2>
+                            <h3>[슬립 웰]</h3>
+                        </div>
+                        <!-- tab -->
+                        <div id="tab1">
+                            <div class="tab">
+                                <h3>Information</h3>
+                                <i class="bi bi-plus"></i>
+                            </div>
+                            <div class="tab_con">
+                                라벤더의 은은한 단 향에 로즈마리의 시원한 소나무 향, 
+                                상큼한 시트러스 향이 더해져 맡는 순간 기분이 편안하고 화사한 향입니다.
+                            </div>
+                        </div>
+                        <div id="tab2">
+                            <div class="tab">
+                                <h3>Affected Products</h3>
+                                <i class="bi bi-plus"></i>
+                            </div>
+                            <div class="tab_con">
+                                수향 캔들 200g / 수향 왁스 타블렛 50g
+                            </div>
+                        </div>
+                        <!-- //tab -->
+                    </div>
+                </div>
+                <div class="slideinner">
+                    <!--s5-->
+                    <div class="slidecard">
+                        <div class="img">
+                            <img src="img/s2_5.png" alt="s2_5"/>
+                        </div>
+                        <h1 class="bigtitle">05</h1>
+                        <div class="text">
+                            <h2>The Raindrops</h2>
+                            <h3>[더 레인드롭스]</h3>
+                        </div>
+                        <!-- tab -->
+                        <div id="tab1">
+                            <div class="tab">
+                                <h3>Information</h3>
+                                <i class="bi bi-plus"></i>
+                            </div>
+                            <div class="tab_con">
+                                시원한 빗줄기가 훑고 간 도시는 싱그러운 
+                                향으로 가득 찹니다. 빗물이 도심에 숨어 있던 식물과 흙, 
+                                바위의 향기입니다.
+                            </div>
+                        </div>
+                        <div id="tab2">
+                            <div class="tab">
+                                <h3>Affected Products</h3>
+                                <i class="bi bi-plus"></i>
+                            </div>
+                            <div class="tab_con">
+                                디퓨저 리필액 / 수향 왁스 타블렛 50g
+                            </div>
+                        </div>
+                        <!-- //tab -->
+                    </div>
+                </div>
+                <div class="slideinner">
+                    <!--s6-->
+                    <div class="slidecard">
+                        <div class="img">
+                            <img src="img/s2_6.png" alt="s2_6"/>
+                        </div>
+                        <h1 class="bigtitle">06</h1>
+                        <div class="text">
+                            <h2>Everyday is Like Sunday</h2>
+                            <h3>[에브리데이 이즈 라이크 선데이]</h3>
+                        </div>
+                        <!-- tab -->
+                        <div id="tab1">
+                            <div class="tab">
+                                <h3>Information</h3>
+                                <i class="bi bi-plus"></i>
+                            </div>
+                            <div class="tab_con">
+                                토마토 슬라이스에 바질 잎을 올리고 레몬즙을 짜 끼얹는 상상을 해보세요. 
+                                머릿속을 가득 채운 싱그러운 내음이 침샘마저 자극하는 향입니다.
+                            </div>
+                        </div>
+                        <div id="tab2">
+                            <div class="tab">
+                                <h3>Affected Products</h3>
+                                <i class="bi bi-plus"></i>
+                            </div>
+                            <div class="tab_con">
+                                수향 캔들 200g /  수향 디퓨저 300ml / 디퓨저 리필액 /  
+                                수향 왁스 타블렛 50g
+                            </div>
+                        </div>
+                        <!-- //tab -->
+                    </div>
+                </div>
+                <div class="slideinner">
+                    <!--s7-->
+                    <div class="slidecard">
+                        <div class="img">
+                            <img src="img/s2_7.png" alt="s2_7"/>
+                        </div>
+                        <h1 class="bigtitle">07</h1>
+                        <div class="text">
+                            <h2>Champagne Supernova</h2>
+                            <h3>[샴페인 슈퍼노바]</h3>
+                        </div>
+                        <!-- tab -->
+                        <div id="tab1">
+                            <div class="tab">
+                                <h3>Information</h3>
+                                <i class="bi bi-plus"></i>
+                            </div>
+                            <div class="tab_con">
+                                샴페인의 섬세한 기포가 힘차게 실어 올리는 달달한 향이 인상적입니다. 
+                                풋사과, 시트러스, 서양 배, 아몬드 등 복합적인 노트가 잘 만든 샴페인을 연상시키는 향입니다.
+                            </div>
+                        </div>
+                        <div id="tab2">
+                            <div class="tab">
+                                <h3>Affected Products</h3>
+                                <i class="bi bi-plus"></i>
+                            </div>
+                            <div class="tab_con">
+                                수향 캔들 200g /  수향 디퓨저 300ml / 디퓨저 리필액 /  
+                                수향 왁스 타블렛 50g
+                            </div>
+                        </div>
+                        <!-- //tab -->
+                    </div>
+                </div>
+                <div class="slideinner">
+                    <!--s8-->
+                    <div class="slidecard">
+                        <div class="img">
+                            <img src="img/s2_8.png" alt="s2_8"/>
+                        </div>
+                        <h1 class="bigtitle">08</h1>
+                        <div class="text">
+                            <h2>Champagne Rose</h2>
+                            <h3>[샴페인 로즈]</h3>
+                        </div>
+                        <!-- tab -->
+                        <div id="tab1">
+                            <div class="tab">
+                                <h3>Information</h3>
+                                <i class="bi bi-plus"></i>
+                            </div>
+                            <div class="tab_con">
+                                짙고 고혹한 장미 향에 레몬 한 방울의 청량감, 농익은 산
+                                딸기의 새콤달콤한 향이 스칩니다. 누군가가 방에 잘 만든 로제 샴페인 향입니다.
+                            </div>
+                        </div>
+                        <div id="tab2">
+                            <div class="tab">
+                                <h3>Affected Products</h3>
+                                <i class="bi bi-plus"></i>
+                            </div>
+                            <div class="tab_con">
+                                수향 캔들 200g /  수향 디퓨저 300ml / 디퓨저 리필액 /  
+                                수향 왁스 타블렛 50g
+                            </div>
+                        </div>
+                        <!-- //tab -->
+                    </div>
+                </div>
+                <div class="slideinner">
+                    <!--s9-->
+                    <div class="slidecard">
+                        <div class="img">
+                            <img src="img/s2_9.png" alt="s2_9"/>
+                        </div>
+                        <h1 class="bigtitle">09</h1>
+                        <div class="text">
+                            <h2>Hinoki</h2>
+                            <h3>[히노키]</h3>
+                            <!-- tab -->
+                            <div id="tab1">
+                                <div class="tab">
+                                    <h3>Information</h3>
+                                    <i class="bi bi-plus"></i>
+                                </div>
+                                <div class="tab_con">
+                                    향을 맡는 순간 편백나무 욕조에 몸을 깊이 담근 듯 안온한 기운이 온몸에 깃듭니다. 잘 말
+                                    린 나무를 연상시키는 우디한 노트부터 블랙페퍼, 레몬그라스의 향입니다.
+                                </div>
+                            </div>
+                            <div id="tab2">
+                                <div class="tab">
+                                    <h3>Affected Products</h3>
+                                    <i class="bi bi-plus"></i>
+                                </div>
+                                <div class="tab_con">
+                                    수향 캔들 200g /  수향 디퓨저 300ml / 디퓨저 리필액 /  
+                                    수향 왁스 타블렛 50g
+                                </div>
+                            </div>
+                            <!-- //tab -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ////s2//// -->
+
+
+
+    <!-- ////s3//// -->
+    <div class="s3">
+        <div class="container">
+            <div class="row">
+                <!-- contents -->
+                <div class="col-12 s3textbox">
+                    <h1>NEW<br>Per Fumum Matchbox</h1>
+                    <h5>Price 12,000</h5>
+                    <p>
+                        일반 성냥보다 길이가 길어 캔들에 불 붙이기 쉬우며,<br>  
+                        불붙는 데 시간이 다소 소요되는 스머지, 팔로산토를 점화할 때도 안전합니다.<br>
+                        파 퍼퓸 컬렉션의 매치박스는 감자껍질로 특수제작한 친환경 패키지에 담겨 있습니다.
+                    </p>
+                    <button>shop</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ////line//// -->
+    <div class="line">
+        <h5>
+            We invite you to meet founder + creative director soohying kim of We invite you to meet founder + creative director soohying kim of We invite you to meet founder + creative director soohying kim of
+            We invite you to meet founder + creative director soohying kim of We invite you to meet founder + creative director soohying kim of We invite you to meet founder + creative director soohying kim of
+        </h5>
+    </div>
+    <!-- ////s3//// -->
+
+
+
+
+    <!-- ////s4//// -->
+    <div class="container s4">
+        <div class="row">
+            <!-- main_title -->
+            <div class="col-12 mtitle">
+                <hr>
+                <h5>한정 페르 푸뭄 컬렉션 출시</h5>
+                <h1>Per Fumum Limeted Collection</h1>
+            </div>
+            <!-- slider_for -->
+            <div class="col-12 slider slider-for">
+                <!-- s1 -->
+				<div>
+                    <!-- img -->
+                    <div class="mainimg">
+                    <img src="img/s4_big3.jpg" alt="s4f_1">
+                        <i class="bi bi-heart"></i>
+                    </div>
+                    <!-- textbox -->
+                    <div class="text">
+                        <h1>White Sage Smudgeso</h1>
+                        <h3>[페르 푸뭄 스머지 스틱 - 화이트 세이지]</h3>
+                        <h5>Price 13,000</h5>
+                        <p>
+                        인디언들이 치유의 목적으로 사용한 말린 허브 묶음입니다. 
+                        허브 중에서도 고대 로마시대부터 구원의 식물로 여겨진 화이트
+                        세이지는 현대의학에서 항균효과가 검증되기도 했습니다.
+                        </p>
+                        <button>shop</button>
+                    </div>
+				</div>
+                <!-- s2 -->
+				<div>
+                    <!-- img -->
+					<div class="mainimg">
+                    <img src="img/s4_big1.jpg" alt="s4f_2">
+                        <i class="bi bi-heart"></i>
+                    </div>
+                    <!-- textbox -->
+                    <div class="text">
+                        <h1>Palo Santo</h1>
+                        <h3>[페르 푸뭄 팔로산토]</h3>
+                        <h5>Price 20,000</h5>
+                        <p>
+                        팔로산토는 스페인어로 ‘신성한 나무’를 의미합니다.
+                        중남미 원주민들이 성스럽게 여긴 향나무로 이를 태우면
+                        부정한 기운이 사라지고 심신의 긴장이 이완됩니다.
+                        </p>
+                        <button>shop</button>
+                    </div>
+				</div>
+                <!-- s3 -->
+				<div>
+                    <!-- img -->
+					<div class="mainimg">
+                    <img src="img/s4_big2.jpg" alt="s4f_3">
+                        <i class="bi bi-heart"></i>
+                    </div>
+                    <!-- textbox -->
+                    <div class="text">
+                        <h1>Cedar Sage Smudges</h1>
+                        <h3>[페르 푸뭄 스머지 스틱 - 시더 세이지]</h3>
+                        <h5>Price 14,000</h5>
+                        <p>
+                        시더우드와 세이지로 만든 스머지. 시더우드의 향기롭고 
+                        마법적인 향을 느낄 수 있습니다. 
+                        보호, 정화, 번영 와 치유의 에너지를 갖습니다.
+                        </p>
+                        <button>shop</button>
+                    </div>
+				</div>
+                <!-- s4 -->
+				<div>
+                    <!-- img -->
+					<div class="mainimg">
+                    <img src="img/s4_big8.jpg" alt="s4f_4">
+                        <i class="bi bi-heart"></i>
+                    </div>
+                    <!-- textbox -->
+                    <div class="text">
+                        <h1>Paper Flower Smudges</h1>
+                        <h3>[페르 푸뭄 스머지 스틱 - 종이꽃 화이트 세이지]</h3>
+                        <h5>Price 13,000</h5>
+                        <p>
+                        인디언들이 치유의 목적으로 사용한 말린 허브 묶음입니다. 
+                        그을린 향이 고혹적이며 항균, 항산화 효과가 뛰어난 화이트세이지에 
+                        ‘종이꽃’이라 불리는 부겐빌레아의 말린 꽃을 더했습니다.
+                        </p>
+                        <button>shop</button>
+                    </div>
+				</div>
+                <!-- s5 -->
+				<div>
+                    <!-- img -->
+					<div class="mainimg">
+                    <img src="img/s4_big5.jpg" alt="s4f_5">
+                        <i class="bi bi-heart"></i>
+                    </div>
+                    <!-- textbox -->
+                    <div class="text">
+                        <h1>Blue Sage Smudges</h1>
+                        <h3>[페르 푸뭄 스머지 스틱 - 블루 세이지]</h3>
+                        <h5>Price 14,000</h5>
+                        <p>
+                        블루 세이지 스머지. 부정적인 에너지를 
+                        없애주고 부, 건강, 번영, 치유와 마음의 평화를 불러 옵니다.
+                        </p>
+                        <button>shop</button>
+                    </div>
+				</div>
+                <!-- s6 -->
+                <div>
+                    <!-- img -->
+					<div class="mainimg">
+                    <img src="img/s4_big6.jpg" alt="s4f_6">
+                        <i class="bi bi-heart"></i>
+                    </div>
+                    <!-- textbox -->
+                    <div class="text">
+                        <h1>Dragon Blood Sage Smudges</h1>
+                        <h3>[페르 푸뭄 스머지 스틱 - 드래곤 블러드 세이지]</h3>
+                        <h5>Price 14,000</h5>
+                        <p>
+                        화이트 세이지에 드래곤 블러드 코팅을 한 스머지.
+                        화이트 세이지에 드래곤 블러드 코팅을 한 스머지. 
+                        </p>
+                        <button>shop</button>
+                    </div>
+				</div>
+                <!-- s7 -->
+                <div>
+                    <!-- img -->
+					<div class="mainimg">
+                        <img src="img/s4_big7.jpg"  alt="s4f_7">
+                        <i class="bi bi-heart"></i>
+                    </div>
+                    <!-- textbox -->
+                    <div class="text">
+                        <h1>Juniper Sage Smudges</h1>
+                        <h3>[페르 푸뭄 스머지 스틱 - 주니퍼 세이지]</h3>
+                        <h5>Price 14,000</h5>
+                        <p>
+                        주니퍼와 세이지로 만든 스머지. 향나무로 알려진 
+                        주니퍼는 부정적인 감정을 없애주고 긍정적인 에너지를 채워줍니다.
+                        </p>
+                        <button>shop</button>
+                    </div>
+				</div>
+                <!-- s8 -->
+                <div>
+                    <!-- img -->
+					<div class="mainimg">
+                    <img src="img/s4_big4.jpg" alt="s4f_8">
+                        <i id="wish" class="bi bi-heart"></i>
+                    </div>
+                    <!-- textbox -->
+                    <div class="text">
+                        <h1>Myrrh Sage Smudges</h1>
+                        <h3>[페르 푸뭄 스머지 스틱 - 미르 세이지]</h3>
+                        <h5>Price 14,000</h5>
+                        <p>
+                        미르 (몰약)과 세이지로 만든 스머지. 몰약수에서 얻은 고무 수지인 미르는 부드럽고 
+                        달콤한 향기를 갖고 있습니다. 치유, 번영과 건강 에너지를 가져 옵니다.
+                        </p>
+                        <button>shop</button>
+                    </div>
+				</div>
+			</div>
+            <!-- //slider_for -->
+            <!-- slider_nav -->
+			<div class="col-12 slider slider-nav">
+				<div>
+                    <div>
+                        <img src="img/s4_3.jpg" alt="s4n_1">
+                        <a href="#">White Sage Smudgeso</a>
+                    </div>
+				</div>
+				<div>
+					<img src="img/s4_1.jpg" alt="s4n_2">
+                    <a href="#">Palo Santo</a>
+				</div>
+				<div>
+					<img src="img/s4_2.jpg" alt="s4n_3">
+                    <a href="#" class="">Cedar Sage Smudges</a>
+				</div>
+				<div>
+					<img src="img/s4_8.jpg" alt="s4n_4">
+                    <a href="#" class="">Paper Flower Smudges</a>
+				</div>
+				<div>
+					<img src="img/s4_5.jpg" alt="s4n_5">
+                    <a href="#" class="">Blue Sage Smudges</a>
+				</div>
+                <div>
+					<img src="img/s4_6.jpg" alt="s4n_6">
+                    <a href="#" class="">Dragon Blood Sage Smudges</a>
+				</div>
+                <div>
+					<img src="img/s4_7.jpg" alt="s4n_7">
+                    <a href="#" class="">Juniper Sage Smudges</a>
+				</div>
+                <div>
+					<img src="img/s4_4.jpg" alt="s4n_8">
+                    <a href="#" class="">Myrrh Sage Smudges</a>
+				</div>
+			</div>
+            <!-- slider_nav -->
+        </div>
+    </div>
+    <!-- ////s4//// -->
+
+
+
+    <!-- ////s5//// -->
+    <div class="container s5">
+        <div class="row s5row">
+            <!-- left -->
+            <div class="col-lg-6 md-12 left d-flex flex-column justify-content-between">
+                <!-- textbox -->
+                <div class="texts">
+                    <h1>Be featured.</h1>
+                    <h5>#collaboration</h5>
+                    <p class="typing"></p>
+                </div>
+                <!-- img -->
+                <div class="w-100 s5img">
+                    <img src="img/main03.png" alt="s5_1"/>
+                    <span></span>
+                    <i class="bi bi-arrow-bar-right"></i>
+                </div>
+            </div>
+            <!-- right -->
+            <div class="right col-lg-5 md-12 d-flex flex-column justify-content-between">
+                <!-- img -->
+                <div class="w-100 s5img">
+                    <img src="img/main02.png" alt="s5_2"/>
+                    <span></span>
+                    <i class="bi bi-arrow-bar-right"></i>
+                </div>
+                <!-- textbox -->
+                <div class="form w-100">
+                    <div class="d-flex justify-content-between align-items-center formlabel">
+                        <h5>Soohyang X Collabo</h5>
+                        <div></div>
+                    </div>
+                    <p>매월 다양하게 진행되고 있는 수향과의 콜라보레이션 상품들을 미리 알림받고
+                        혜택을 즐겨보세요 <i>!</i>
+                    </p>
+                    <form class="w-100">
+                        <input class="typing" type="text" id="name" placeholder="Type your email here ..">
+                        <input type="submit" value="subscribe">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ////s5//// -->
+
+
+
+    <!-- ////s6//// -->
+    <div class="container s6">
+        <div class="row">
+            <!-- main_title -->
+            <div class="col-12 d-flex justify-content-center insta">
+                <i class="bi bi-instagram"></i>
+                soohyangofficial
+            </div>
+            <div class="col-12 d-flex justify-content-center insta_title">
+                <h5>게시물<span>723</span></h5>
+                <h5>팔로워<span>5만</span></h5>
+                <h5>팔로우<span>0</span></h5>
+            </div>
+            <!-- slider -->
+            <div class="col-12 s2slide"> 
+                <div class="slideinner">
+                    <!--s1 -->
+                    <div class="slidecard inner">
+                        <div class="img">
+                            <img src="img/in1.png" alt="s6_1"/>
+                            <span></span>
+                            <div class="s6icon">
+                                <a href="#"><i class="bi bi-heart-fill"></i></a>
+                                <a href="#"><i class="bi bi-chat-dots-fill"></i></a>
+                            </div>
+                        </div>
+                        <div class="s6text">
+                            <h2>정성을 담은 홀리데이..</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="slideinner">
+                    <!--s2 -->
+                    <div class="slidecard inner">
+                        <div class="img">
+                            <img src="img/in2.png" alt="s6_2"/>
+                            <span></span>
+                            <div class="s6icon">
+                                <a href="#"><i class="bi bi-heart-fill"></i></a>
+                                <a href="#"><i class="bi bi-chat-dots-fill"></i></a>
+                            </div>
+                        </div>
+                        <div class="s6text">
+                            <h2>NEW 수향X호가든 보..</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="slideinner">
+                    <!--s3 -->
+                    <div class="slidecard inner">
+                        <div class="img">
+                            <img src="img/in3.png" alt="s6_3"/>
+                            <span></span>
+                            <div class="s6icon">
+                                <a href="#"><i class="bi bi-heart-fill"></i></a>
+                                <a href="#"><i class="bi bi-chat-dots-fill"></i></a>
+                            </div>
+                        </div>
+                        <div class="s6text">
+                            <h2>수향의 향을 담은 팩..</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="slideinner">
+                    <!--s4 -->
+                    <div class="slidecard inner">
+                        <div class="img">
+                            <img src="img/in4.png" alt="s6_4"/>
+                            <span></span>
+                            <div class="s6icon">
+                                <a href="#"><i class="bi bi-heart-fill"></i></a>
+                                <a href="#"><i class="bi bi-chat-dots-fill"></i></a>
+                            </div>
+                        </div>
+                        <div class="s6text">
+                            <h2>수향 커스텀 BOX 증정..</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="slideinner">
+                    <!--s5 -->
+                    <div class="slidecard inner">
+                        <div class="img">
+                            <img src="img/in5.png" alt="s6_5"/>
+                            <span></span>
+                            <div class="s6icon">
+                                <a href="#"><i class="bi bi-heart-fill"></i></a>
+                                <a href="#"><i class="bi bi-chat-dots-fill"></i></a>
+                            </div>
+                        </div>
+                        <div class="s6text">
+                            <h2>새롭게 인테리어 된 신논현..</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ////s6//// -->
+
+
+
+    <!-- ////footer//// -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <!-- f_logo -->
+                <h1 class="col-12 d-flex justify-content-center">
+                    <img src="img/logo.png" alt=""/>
+                </h1>
+                <!-- f_menu -->
+                <div class="col-12 d-flex justify-content-center">
+                    <ul>
+                        <li><a href="">product</a></li>
+                        <li><a href="">Fragrance</a></li>
+                        <li><a href="">collection</a></li>
+                        <li><a href="">about</a></li>
+                    </ul>
+                </div>
+                <!-- f_contents -->
+                <div class="col-12 d-flex justify-content-center">
+                    <div>
+                        <i class="bi bi-telephone-fill"></i>Tel: +82-2-516-5618 
+                    </div>
+                    <div>
+                        <i class="bi bi-envelope-at-fill"></i>E-Mail: info@soohyang.co.kr28
+                    </div>
+                </div>
+                <div id="place" class="col-lg-12 d-flex justify-content-center">
+                    <p><i class="bi bi-geo-alt-fill"></i>Seongsui-ro 7-gil, Seongdong-gu, Seoul, Republic of Korea, 04781Permit No. 2017-GangnamSeoul-04685</p>
+                </div>
+                <div class="mx-auto">
+                    ⓒ Soohyang All rights reserved.Soohyang Inc. |  CEO: Kim Soo HyangBusiness No. 869-81-00204
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ////footer//// -->
+
+
+
+    <!-- ////scrollup//// -->
+    <a href="" class="scrollUp">
+        <i class="xi-arrow-top"></i>
+    </a>
+    <!-- ////scrollup//// -->
+</body>
+</html>
